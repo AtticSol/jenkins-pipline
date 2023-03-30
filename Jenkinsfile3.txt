@@ -26,7 +26,7 @@ pipeline {
             steps {
                 echo "Start of Stage Deploy..."
                 echo "Deploying......."
-                bat "ls -la"
+                bat "dir -la"
                 bat '''
                    echo "Line1"
                    echo "Line2"
